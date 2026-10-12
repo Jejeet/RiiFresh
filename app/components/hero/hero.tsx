@@ -41,8 +41,8 @@ const Hero = () => {
             <Image
               src={hero}
               alt="Three bottles of cold-pressed juice surrounded by flying fruit and splashes"
-              width={1600}
-              height={1104}
+              // width={1600}
+              // height={1104}
               className="relative w-full rounded-[2.5rem] object-cover"
             />
           </div>

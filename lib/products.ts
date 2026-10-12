@@ -56,6 +56,20 @@ export const products: ShopProduct[] = [
     tags: ["Pineapple", "Refreshing"],
     ingredients: ["Pineapple", "Hibiscus"],
   },
+   {
+    id: "4",
+    slug: "riifresh-pineapple-mini",
+    name: "RiiFresh Pineapple 35cl",
+    description:
+      "Sweet, refreshing mini-bottle infused heavily with tropical pineapple chunks.",
+    imageUrl: heroImg,
+    price: 1200,
+    category: "Pineapple",
+    stock: 40,
+    tags: ["Pineapple", "Refreshing"],
+    ingredients: ["Pineapple", "Hibiscus"],
+  },
+   
 ];
 
 export function getProductBySlug(slug: string) {

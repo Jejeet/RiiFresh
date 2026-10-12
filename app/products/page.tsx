@@ -55,7 +55,9 @@ export default function ProductCatalogPage() {
                 imageUrl: p.imageUrl,
               });
               toast.success(`${p.name} added to cart`);
+              
             }}
+           
           />
         ))}
       </div>
